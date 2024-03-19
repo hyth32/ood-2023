@@ -1,4 +1,4 @@
-#include "RectangleCreator.h"
+#include "singletons/RectangleCreator.h"
 
 RectangleCreator &RectangleCreator::getInstance() {
     static RectangleCreator instance;

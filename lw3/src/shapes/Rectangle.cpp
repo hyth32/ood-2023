@@ -1,4 +1,4 @@
-#include "Rectangle.h"
+#include "shapes/Rectangle.h"
 
 Rectangle::Rectangle(const sf::Vector2f &p1, const sf::Vector2f &p2)
         : rectangle(sf::Vector2f(std::abs(p1.x - p2.x), std::abs(p1.y - p2.y))) {

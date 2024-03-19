@@ -1,4 +1,4 @@
-#include "../include/Triangle.h"
+#include "shapes/Triangle.h"
 #include <cmath>
 
 Triangle::Triangle(const sf::Vector2f &p1, const sf::Vector2f &p2, const sf::Vector2f &p3)

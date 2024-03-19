@@ -1,7 +1,7 @@
 #include <fstream>
 #include <vector>
 #include <memory>
-#include "Shape.h"
+#include "shapes/Shape.h"
 
 class ShapeReader {
 public:

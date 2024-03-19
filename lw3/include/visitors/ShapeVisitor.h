@@ -1,7 +1,7 @@
 #ifndef SHAPEVISITOR_H
 #define SHAPEVISITOR_H
 
-#include "Shape.h"
+#include "shapes/Shape.h"
 
 class ShapeVisitor {
 public:

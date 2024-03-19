@@ -1,4 +1,4 @@
-#include "ColorDecorator.h"
+#include "decorators/ColorDecorator.h"
 
 ColorDecorator::ColorDecorator(Shape *shape, sf::Color color)
         : shape(shape), color(color) {}

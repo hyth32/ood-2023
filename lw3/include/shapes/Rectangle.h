@@ -1,14 +1,19 @@
-#include "ShapeVisitor.h"
+#include "visitors/ShapeVisitor.h"
 
-class Circle : public Shape {
+class Rectangle : public Shape {
 public:
-    Circle(const sf::Vector2f &center, float radius);
+    Rectangle(const sf::Vector2f &p1, const sf::Vector2f &p2);
+
     void draw(sf::RenderWindow &window) override;
+
     void setColor(const sf::Color &color) override;
+
     void accept(ShapeVisitor *visitor) override;
+
     double perimeter() const override;
+
     double area() const override;
 
 private:
-    sf::CircleShape circle;
+    sf::RectangleShape rectangle;
 };

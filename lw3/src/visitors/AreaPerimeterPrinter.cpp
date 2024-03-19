@@ -1,7 +1,7 @@
-#include "AreaPerimeterPrinter.h"
-#include <Triangle.h>
-#include <Rectangle.h>
-#include <Circle.h>
+#include "visitors/AreaPerimeterPrinter.h"
+#include "shapes/Triangle.h"
+#include "shapes/Rectangle.h"
+#include "shapes/Circle.h"
 
 AreaPerimeterPrinter::AreaPerimeterPrinter(std::ostream &out) : out(out) {}
 

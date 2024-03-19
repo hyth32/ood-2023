@@ -1,7 +1,7 @@
-#include "ColorDecorator.h"
-#include "AreaPerimeterPrinter.h"
-#include "ShapeReader.h"
-#include "ShapeDrawer.h"
+#include "decorators/ColorDecorator.h"
+#include "visitors/AreaPerimeterPrinter.h"
+#include "main/ShapeReader.h"
+#include "main/ShapeDrawer.h"
 #include <iostream>
 #include <fstream>
 

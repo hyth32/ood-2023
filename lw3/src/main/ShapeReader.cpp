@@ -1,8 +1,8 @@
-#include "ShapeReader.h"
-#include "TriangleCreator.h"
-#include "RectangleCreator.h"
-#include "CircleCreator.h"
-#include "ColorDecorator.h"
+#include "main/ShapeReader.h"
+#include "singletons/TriangleCreator.h"
+#include "singletons/RectangleCreator.h"
+#include "singletons/CircleCreator.h"
+#include "decorators/ColorDecorator.h"
 #include <sstream>
 
 std::vector<std::unique_ptr<Shape>> ShapeReader::readShapesFromFile(const std::string &filename) {

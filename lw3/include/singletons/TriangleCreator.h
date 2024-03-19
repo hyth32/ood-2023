@@ -1,4 +1,4 @@
-#include "Triangle.h"
+#include "shapes/Triangle.h"
 
 class TriangleCreator {
 public:

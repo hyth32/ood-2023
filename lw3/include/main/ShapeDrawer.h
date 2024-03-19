@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <memory>
-#include "Shape.h"
+#include "shapes/Shape.h"
 
 class ShapeDrawer {
 public:

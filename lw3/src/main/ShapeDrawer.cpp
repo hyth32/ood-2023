@@ -1,4 +1,4 @@
-#include "ShapeDrawer.h"
+#include "main/ShapeDrawer.h"
 
 void ShapeDrawer::drawShapes(sf::RenderWindow &window, const std::vector<std::unique_ptr<Shape>> &shapes) {
     while (window.isOpen()) {

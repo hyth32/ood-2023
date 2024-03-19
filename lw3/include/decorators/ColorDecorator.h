@@ -1,4 +1,4 @@
-#include "Shape.h"
+#include "shapes/Shape.h"
 
 class ColorDecorator : public Shape {
 public:

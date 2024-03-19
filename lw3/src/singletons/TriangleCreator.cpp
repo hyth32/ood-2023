@@ -1,4 +1,4 @@
-#include "TriangleCreator.h"
+#include "singletons/TriangleCreator.h"
 
 TriangleCreator &TriangleCreator::getInstance() {
     static TriangleCreator instance;

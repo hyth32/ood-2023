@@ -16,8 +16,8 @@ double ColorDecorator::area() const {
     return shape->area();
 }
 
-void ColorDecorator::setColor(const sf::Color &color) {
-    this->color = color;
+void ColorDecorator::setColor(const sf::Color &newColor) {
+    this->color = newColor;
 }
 
 void ColorDecorator::accept(ShapeVisitor *visitor) {

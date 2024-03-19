@@ -6,11 +6,11 @@ public:
 
     void draw(sf::RenderWindow &window) override;
 
-    double perimeter() const override;
+    [[nodiscard]] double perimeter() const override;
 
-    double area() const override;
+    [[nodiscard]] double area() const override;
 
-    void setColor(const sf::Color &color) override;
+    void setColor(const sf::Color &newColor) override;
 
     void accept(ShapeVisitor *visitor) override;
 

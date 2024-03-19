@@ -9,4 +9,4 @@ Circle *CircleCreator::create(const sf::Vector2f &center, float radius) {
     return new Circle(center, radius);
 }
 
-CircleCreator::CircleCreator() {}
+CircleCreator::CircleCreator() = default;

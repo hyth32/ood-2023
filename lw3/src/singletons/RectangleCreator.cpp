@@ -9,4 +9,4 @@ Rectangle *RectangleCreator::create(const sf::Vector2f &p1, const sf::Vector2f &
     return new Rectangle(p1, p2);
 }
 
-RectangleCreator::RectangleCreator() {}
+RectangleCreator::RectangleCreator() = default;
